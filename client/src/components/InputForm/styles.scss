@@ -1,0 +1,49 @@
+.input-form {
+  background: rgba(134, 64, 248, 0.2);
+  border-radius: 2.5px 2.5px 0px 0px;
+  border: 2px solid #8640f8;
+  box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  margin-top: 30px;
+
+  .input-field {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    padding-left: 20px;
+  }
+
+  .send-button {
+    width: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+
+.input-form-large {
+  width: 80%;
+  align-items: center;
+  border-radius: 2.5px;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  margin: 15px 0;
+  padding: 30px 0px;
+
+  .input-field {
+    font-size: 20px;
+  }
+
+  .input-field::placeholder {
+    color: white;
+  }
+}

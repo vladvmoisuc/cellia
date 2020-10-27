@@ -1,0 +1,45 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 100vh;
+}
+
+.top-side {
+  height: 50vh;
+  box-sizing: border-box;
+}
+
+.bottom-side {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  padding-top: 125px;
+  padding-bottom: 75px;
+}
+
+.heading h1 {
+  font-size: 80px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1;
+}
+
+.heading p {
+  font-weight: 300;
+  margin: 0 0px 0 5px;
+  font-size: 20px;
+}
+
+.top-side img {
+  width: 100% !important;
+}

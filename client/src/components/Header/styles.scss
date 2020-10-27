@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 40px;
+
+  .avatar {
+    border-radius: 50%;
+    border: 3px solid #8640f8;
+    height: 50px;
+    padding: 3px;
+    position: relative;
+    width: 50px;
+  }
+
+  .content {
+    margin-left: 10px;
+  }
+
+  .title {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  .subtitle {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
